@@ -15,5 +15,10 @@ def are_anagrams_two(str_one, str_two):
     
   return True
 
+def are_anagrams(str_one, str_two):
+  ''' Check if two strings are anagrams '''
+  
+  return Counter(str_one.strip().lower()) == Counter(str_two.strip().lower())
+
 
 print(are_anagrams_two('Listen', 'Silent'))
