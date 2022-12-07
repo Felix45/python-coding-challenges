@@ -240,7 +240,7 @@ Feel free to check the [issues page](../../issues/).
 
 > Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project please help me by starring this repository
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -248,9 +248,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+> I would like to thank all my coding partners who have contributed to this repository
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -259,14 +257,6 @@ I would like to thank...
 ## ❓ FAQ <a name="faq"></a>
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
