@@ -3,7 +3,6 @@ def is_palindrome(str_to_check):
     @param str_to_check
     @return boolean
   '''
-  str_to_check = str_to_check.replace()
   start = 0
   str_len = len(str_to_check) - 1
 
