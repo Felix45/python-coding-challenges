@@ -34,8 +34,8 @@ def are_anagrams_three(str_one, str_two):
   if len(str_one) != len(str_two):
     return False
 
-  letters_in_str_one = get_letters_count(str_one)
-  letters_in_str_two = get_letters_count(str_two)
+  letters_in_str_one = get_letters_count(str_one.lower())
+  letters_in_str_two = get_letters_count(str_two.lower())
 
   for letter in letters_in_str_one:
     if letters_in_str_one[letter] != letters_in_str_two[letter]:
@@ -43,7 +43,7 @@ def are_anagrams_three(str_one, str_two):
 
   return True
 
-print(are_anagrams('oteraw', 'rawteo'))
-print(are_anagrams_two('oteraw', 'rawteo'))
-print(are_anagrams_three('oteraw', 'rawteo'))
+print(are_anagrams('Listen', 'Silent'))
+print(are_anagrams_two('ttew', 'tetw'))
+print(are_anagrams_three('Restful', 'Fluster'))
 
