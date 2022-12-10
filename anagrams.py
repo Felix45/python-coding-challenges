@@ -17,33 +17,21 @@ def are_anagrams_two(str_one, str_two):
 
   return str_one == str_two
 
-def get_letters_count(str):
-  ''' Returns the total count of letters in a string '''
-  letters_count = {}
-  
-  for letter in str:
-    if letter in letters_count:
-      letters_count[letter] += 1
-    else:
-      letters_count[letter] = 1
-  
-  return letters_count
-
 def are_anagrams_three(str_one, str_two):
-  ''' Checks if two strings are anagrams by checking the count of letters in each string '''
+  ''' Checks if two strings are anagrams by counting the frequecny of individual letters '''
   if len(str_one) != len(str_two):
     return False
+  
+  str_one = str_one.lower()
+  str_two = str_two.lower()
 
-  letters_in_str_one = get_letters_count(str_one.lower())
-  letters_in_str_two = get_letters_count(str_two.lower())
-
-  for letter in letters_in_str_one:
-    if letters_in_str_one[letter] != letters_in_str_two[letter]:
+  for letter in str_one:
+    if str_one.count(letter) != str_two.count(letter):
       return False
 
   return True
 
 print(are_anagrams('Listen', 'Silent'))
 print(are_anagrams_two('ttew', 'tetw'))
-print(are_anagrams_three('Restful', 'Fluster'))
+print(are_anagrams_three('ResTfuL', 'FLUSter'))
 
