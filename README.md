@@ -53,9 +53,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Python Coding Challenges] <a name="about-project"></a>
+# 📖 Python Coding Challenges <a name="about-project"></a>
 
-> This is a repository dedicated to solving coding challenges using python programming language
+> This is a repository dedicated to solving coding challenges using Python programming language
 
 **[your_project__name]** is a...
 
@@ -69,6 +69,7 @@ After you're finished please remove all the comments and instructions!
   <summary>Client</summary>
   <ul>
     <li><a href="https://www.python.org/">Python</a></li>
+    <li><a href="https://docs.pytest.org/en/7.2.x/">Pytest</a></li>
   </ul>
 </details>
 
@@ -76,7 +77,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> This project attempts to solve some of the popular coding challenges in technical intervies.
+> This project attempts to solve some of the popular coding challenges in technical interviews.
 
 - **Each branch has a different coding challenge**
 
@@ -104,6 +105,7 @@ In order to run this project you need:
 
 ```
   $ python3 --version
+  $ sudo apt install python3.8-venv
 ```
 
 <!--
@@ -138,7 +140,9 @@ Install this project with:
 
 ```
   $ cd python-coding-challenges
-
+  $ sudo python3 -m venv env
+  $ evn/bin/activate
+  $ (env) >
 ```
 
 <!--
@@ -165,7 +169,7 @@ Example command:
 ```
   $ git checkout challenge-branch
 
-  $ python3 challenge.py
+  $ pytest challenge_test.py
 ```
 
 ### Run tests
@@ -218,7 +222,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+> Describe 1 - 3 features.
 
 - [ ] **Each branch has a different coding challenge**
 
