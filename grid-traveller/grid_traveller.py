@@ -19,10 +19,3 @@ def grid_traveller(m, n, memo={}):
   
   memo[(m,n)] = grid_traveller(m-1, n, memo) + grid_traveller(m, n-1, memo)
   return memo[(m,n)]
-
-print(grid_traveller(0,0))
-print(grid_traveller(1,1))
-print(grid_traveller(2,1))
-print(grid_traveller(3,2))
-print(grid_traveller(16,16))
-print(grid_traveller(18,18))
