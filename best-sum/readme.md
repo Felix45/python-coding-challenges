@@ -9,7 +9,7 @@ then return None.
 - If there are multiple shortest combinations possible, you may return any single combination
 
 ## Examples
-```
+```Python
   best_sum(7, [5, 3, 4, 7]) => [7]
   best_sum(7, [2, 4]) => None
   best_sum(300, [7, 14]) => None
