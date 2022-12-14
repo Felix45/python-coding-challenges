@@ -13,4 +13,5 @@ then return None.
   best_sum(7, [5, 3, 4, 7]) => [7]
   best_sum(7, [2, 4]) => None
   best_sum(300, [7, 14]) => None
+  best_sum(100, [1, 2, 5, 25], {})  => [25, 25, 25, 25]
 ```
