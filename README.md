@@ -141,7 +141,7 @@ Install this project with:
 ```
   $ cd python-coding-challenges
   $ sudo python3 -m venv env
-  $ evn/bin/activate
+  $ source evn/bin/activate
   $ (env) >
 ```
 
