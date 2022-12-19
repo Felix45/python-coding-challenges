@@ -16,8 +16,7 @@ def all_construct(target_word, word_bank):
       for suffix_way in suffix_ways:
         if isinstance(suffix_way, list):
           suffix_way.insert(0, word)
-          target_ways.append(suffix_way[:])
-        
+          target_ways.append(suffix_way[:]) 
+
       result += target_ways
-    
   return result
