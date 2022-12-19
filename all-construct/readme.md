@@ -1,4 +1,4 @@
-## All Construct Coding challenge
+## All construct coding challenge
 > Write a function `all_construct` that takes in a target string and an array of strings as arguments. The function
 should return a 2D array containing all the ways that the `target` can be constructed by concatenating elements of the `word_bank` array.
 Each element of the 2d array should represent one combination that constructs the `target`.
