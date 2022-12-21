@@ -1,0 +1,27 @@
+def is_palindrome(str_to_check):
+  '''
+    @param str_to_check
+    @return boolean
+  '''
+  str_to_check = str_to_check.replace()
+  start = 0
+  str_len = len(str_to_check) - 1
+
+  while start < str_len:
+    if str_to_check[start] != str_to_check[str_len]:
+      return False
+    start += 1
+    str_len -= 1
+  
+  return True
+
+def is_palindrome_two(str_to_check):
+  '''
+    @param str_to_check
+    @return boolean
+  '''
+
+  return str_to_check == str_to_check[::-1]
+
+
+print(is_palindrome_two('malayalam'))
