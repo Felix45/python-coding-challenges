@@ -1,7 +1,7 @@
 from unittest import TestCase
 from reverse_string import reverse_string
 
-class AnagramsTest(TestCase):
+class ReverseStringTest(TestCase):
     def test_reverse_string_hello(self):
       assert reverse_string(["h","e","l","l","o"]) == ["o","l","l","e","h"]
 
