@@ -14,4 +14,11 @@ def getPermutations(str):
 
   return output
 
-print(getPermutations('aboo'))
+def checkInclusion(s1, s2):
+  permutations = getPermutations(s1)
+
+  for word in permutations:
+    if word in s2:
+      return True
+
+  return False
