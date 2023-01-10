@@ -1,4 +1,5 @@
 ## Occurrence of a string coding challenge
+
 > Given a string `str`, get the indices of a substring `sub` in the string.
 
 ## Constraints
