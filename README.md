@@ -142,7 +142,7 @@ Install this project with:
   $ cd python-coding-challenges
   $ sudo python3 -m venv env
   $ source evn/bin/activate
-  $ (env) >
+  $ (env) > pip3 install -r requirements.txt
 ```
 
 <!--
