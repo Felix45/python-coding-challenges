@@ -10,3 +10,9 @@ class SearchInsertTest(TestCase):
 
     def test_search_insert_seven(self):
       assert search_insert_index([1,3,5,6], 7) == 4
+
+    def test_search_insert_negative(self):
+      assert search_insert_index([1,3,5,6], -1) == 0
+
+    def test_search_insert_negative(self):
+      assert search_insert_index([1,3], 2) == 1
