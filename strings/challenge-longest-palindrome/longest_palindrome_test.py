@@ -5,5 +5,5 @@ class LongestPalindromeTest(TestCase):
     def test_longest_palindrome_I(self):
       assert longest_palindrome('babad') == 'bab'
 
-    def test_longest_palindrome_I(self):
+    def test_longest_palindrome_II(self):
       assert longest_palindrome('cbbd') == "bb"
