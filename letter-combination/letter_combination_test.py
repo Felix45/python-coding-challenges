@@ -6,7 +6,7 @@ class LetterCombinationTest(TestCase):
       assert letter_combination('23') == ["ad","ae","af","bd","be","bf","cd","ce","cf"]
    
     def test_letter_combination_II(self):
-      assert letter_combination('1') == ['a', 'b', 'c']
+      assert letter_combination('2') == ['a', 'b', 'c']
 
     def test_letter_combination_III(self):
       assert letter_combination('') == []
