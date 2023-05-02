@@ -57,7 +57,6 @@ After you're finished please remove all the comments and instructions!
 
 > This is a repository dedicated to solving coding challenges using Python programming language
 
-**[your_project__name]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -86,8 +85,6 @@ After you're finished please remove all the comments and instructions!
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://github.com/Felix45/python-coding-challenges)
 
@@ -222,9 +219,10 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features.
-
-- [ ] **Each branch has a different coding challenge**
+- [x] Add dynamic programming coding challenges
+- [x] Add string manipulation coding challenges
+- [x] Add array related coding challenges
+- [x] Add divide and conquer coding challenges
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -256,20 +254,10 @@ If you like this project please help me by starring this repository
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
