@@ -11,5 +11,12 @@
 |getElement(function)|Returns the element at current position|
 |insert(function)|Inserts new element after existing element|
 |append(function)|Adds new element to the end of list|
+|remove(function)|Removes element from the list|
+|front(function)|Sets the current position to the first element of list|
+|end(function)|Sets the current position to the last element of list|
+|prev(function)|Moves the current position back one element|
+|next(function)|Moves the current position foward one element|
+|currPos(function)|Returns the current position in list|
+|moveTo(function)|Moves the current position to specified position|
 
 
