@@ -26,9 +26,3 @@ Output: 50 30 23
 Explanation: 3 Largest element in the array are 50, 30 and 23.
 ```
 
-## Example 3
-```Python
-Input: s = [-1, -3]
-Output: 1
-```
-
