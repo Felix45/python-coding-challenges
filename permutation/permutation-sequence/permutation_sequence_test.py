@@ -7,7 +7,7 @@ class PermutationSequence(TestCase):
     assert permutation_sequence(3,3) == "213"
 
   def test_permutation_sequence_II(self):
-    assert permutation_sequence(4,9) == "1234"
+    assert permutation_sequence(4,9) == "2314"
 
   def test_permutation_sequence_III(self):
     assert permutation_sequence(3,1) == "123"

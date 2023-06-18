@@ -25,9 +25,5 @@ def permutation_sequence(number, k):
       number -= 1
 
     permutations = getPermutations("".join(fact[::-1]))
-    print(permutations)
 
     return permutations[k-1]
-
-
-print(permutation_sequence(4,9))
