@@ -55,7 +55,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Python Coding Challenges <a name="about-project"></a>
 
-> This is a repository dedicated to solving coding challenges using Python programming language
+> This is a repository dedicated to solving coding challenges using the Python programming language
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -82,11 +82,13 @@ After you're finished please remove all the comments and instructions!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
+<!-- LIVE DEMO 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Coming Soon]
+
+-->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
