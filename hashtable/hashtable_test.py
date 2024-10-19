@@ -21,3 +21,7 @@ class HashTableTest(TestCase):
         assert ht.contains('Felix') == True
         ht.remove('Felix')
         assert ht.contains('Felix')  == False
+
+    def test_hash(self):
+        ht = HashTable(10)
+        assert ht.hash('Felix') == 4
